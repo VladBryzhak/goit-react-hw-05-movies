@@ -1,11 +1,11 @@
-import { MoviesList } from '../components/MoviesList/MoviesList';
+import { MoviesList } from '../components/movieList/MovieList';
 import { useEffect, useState } from 'react';
 import { fetchMoviesByQuery } from '../tmdbAPI';
 import { useSearchParams } from 'react-router-dom';
-import { SearchForm } from 'components/SearchForm/SearchForm';
-import { Main } from './Home/Home.styled';
-import { Loader } from '../components/Loader/Loader';
-import { Error } from '../components/Error/Error';
+import { SearchForm } from 'components/searchForm/SearchForm';
+import { Main } from './home/Home.styled';
+import { Loader } from '../components/loader/Loader';
+import { Error } from '../components/error/Error';
 
 export default function Movies() {
   const [moviesByQuery, setMoviesByQuery] = useState([]);

@@ -11,7 +11,7 @@ import {
   AddInfWrapper,
   LinkItem,
 } from './MovieDetails.styled';
-import { Loader } from '../../components/Loader/Loader';
+import { Loader } from '../../components/loader/Loader';
 import { Error } from '../../components/error/Error';
 
 const defaultImg = 'https://i.ytimg.com/vi/G5bAHTYyNNc/sddefault.jpg';

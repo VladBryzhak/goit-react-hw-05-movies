@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { fetchMovies } from '../../tmdbAPI';
-import { MoviesList } from '../../components/MoviesList/MoviesList';
+import { MoviesList } from '../../components/movieList/MovieList';
 import { Main, Title } from './Home.styled';
-import { Loader } from '../../components/Loader/Loader';
+import { Loader } from '../../components/loader/Loader';
 import { Error } from '../../components/error/Error';
 
 export default function Home() {
